@@ -1,0 +1,11 @@
+.fstb {
+background-color: black;
+color: white;
+}
+.secb {
+    background-color: yellow;
+}
+.fstb, .secb {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
