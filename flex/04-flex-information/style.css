@@ -1,10 +1,7 @@
-*  {
-  border: 1px solid black;
-}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  justify-content: center;
 }
 
 img {
@@ -19,9 +16,12 @@ img {
 }
 .img-box {
 display: flex;
-flex-wrap: wrap;
+gap: 52px;
+justify-content: center;
 }
-.text {
+
+.item {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
