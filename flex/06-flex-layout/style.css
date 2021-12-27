@@ -6,6 +6,17 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+li {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
 
 img {
   width: 600px;
@@ -24,4 +35,21 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.content {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+
+.footer {
 }
